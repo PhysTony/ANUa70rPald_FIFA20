@@ -1,0 +1,41 @@
+1. What is Plotly module in python used for?
+It is a Visualization tool
+Plotly is a handy tool for data and information visualization
+
+2. Which line of code will show you first 5 rows of a dataframe?
+df.head()
+this method will show us 5 first rows of a dataframe
+
+3. which of these methods is used to delete columns in a dataframe ?
+.drop()
+df.drop([columns ,axis=1,inplace=True ]
+
+4. Which of these methods is used to print out the column names of a dataframe?
+df.columns
+df.columns is used to get the list of column names
+
+5. Pregunta 5
+which one of these methods is used to add prefix to the column names of a dataframe ?
+.add_prefix('prefix')
+this method is used to add prefix to column names of a dataframe
+
+6. how to merge two dataframes df1 and df2 by columns using pandas ?
+pd.concat([ df1 , df2 ], axis = 1)
+this will merge the dataframes by their columns
+
+7. how to calculate median of a column col in of dataframe df?
+df[col].median()
+median() method will return the median of a pandas series values
+
+8. how to fill the null values with 0 in a dataframe df ?
+df.fillna(0)
+we should use fillna() method to replace the null values
+
+9. how to count number of NaN values in our dataframe df ?
+df.isnull().sum()
+you should use df.isnull().sum()
+
+10. why it is better to put the error_bad_lines to be True while we are reading CSV file using
+pandas?
+when we put the error_bad_lines to be true, it ignores null values in our comma separated file.
+when we put the error_bad_lines to be true, it ignores corrupted line in our comma separated file.
